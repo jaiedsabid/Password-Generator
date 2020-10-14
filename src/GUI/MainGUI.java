@@ -114,7 +114,7 @@ public class MainGUI extends javax.swing.JFrame {
 
         windowTitle.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         windowTitle.setForeground(new java.awt.Color(255, 255, 255));
-        windowTitle.setText("Simple Password Generator");
+        windowTitle.setText("Password Generator");
 
         javax.swing.GroupLayout topTitleBarLayout = new javax.swing.GroupLayout(topTitleBar);
         topTitleBar.setLayout(topTitleBarLayout);
@@ -123,7 +123,7 @@ public class MainGUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, topTitleBarLayout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addComponent(windowTitle)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 217, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 305, Short.MAX_VALUE)
                 .addComponent(closeWindowPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         topTitleBarLayout.setVerticalGroup(
